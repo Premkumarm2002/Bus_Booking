@@ -1,0 +1,29 @@
+.landingpage img:first-child{
+    height: 100px;
+    width: 100px;
+}
+.landingpage :last-child img{
+    height: 100px;
+    width: 100px;
+}
+.landingpage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    box-shadow: 0px 0px 10px yellow;
+    top: 25%;
+    left: 25%;
+    border-radius: 20px;
+    width: 50%;
+    height: 35%;
+    padding: 20px 0px;
+    text-align: center;
+}
+.landingpage a{
+    text-decoration: none;
+    transition: 1s;
+}
+.landingpage a:hover{
+    transform: scale(1.2);
+}
